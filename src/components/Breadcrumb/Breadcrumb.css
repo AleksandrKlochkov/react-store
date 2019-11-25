@@ -1,0 +1,65 @@
+/*хлебные крошки*/
+
+.pagination-links-tags-cont {
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+}
+
+
+.ul-pagination-links-tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #fff;
+    min-height: 50px;
+    padding:  5px;
+    border: 1px solid #ddd;
+    margin: 0 0 7px 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.ul-pagination-links-tags li {
+    float: left;
+    font-size: 12px;
+    color: #ddd ;
+}
+
+.ul-pagination-links-tags li i{
+    color: #ddd ;
+    font-size: 12px;
+}
+.ul-pagination-links-tags li:last-child{
+display: none;
+}
+
+.ul-pagination-links-tags li a {
+    text-decoration: none;
+    padding: 15px 10px;
+    color: #282828;
+    font-size: 12px;
+    display: block;
+}
+
+.ul-pagination-links-tags li a:hover{
+    text-decoration:underline;
+
+
+}
+
+.activ-pagination-links-tags{
+     color: #777 !important;
+}
+
+.activ-pagination-links-tags:hover{
+    text-decoration:none !important;
+   
+}
+
+/*хлебные крошки*/
